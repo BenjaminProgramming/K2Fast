@@ -1,0 +1,813 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>K2 Fastigheter — Lediga Lokaler</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid px-4">
+      <a class="navbar-brand brand" href="#home">
+        <img src="SVG/K2_FAST_LOGO_TRANSPARENT.svg" alt="K2 Fastigheter Logo" style="height: 90px;">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" style="border-color: var(--science-blue);">
+        <span class="navbar-toggler-icon" style="background-image: url('data:image/svg+xml,%3csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 30 30%22%3e%3cpath stroke=%22%23046bb6%22 stroke-linecap=%22round%22 stroke-miterlimit=%2210%22 stroke-width=%222%22 d=%22M4 7h22M4 15h22M4 23h22%22/%3e%3c/svg%3e');"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="#home">Hem</a></li>
+          <li class="nav-item"><a class="nav-link" href="#list">Lediga Lokaler</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Kontakt</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section id="home" class="hero fade-in-element">
+       <img id="parallaxHero" class="hero-bg parallax" src="K2_fast_bilder/Homepage_Bilder/Bild_Enhanced (3).jpg"
+         alt="Industrilokaler bakgrund"
+         loading="eager"
+         decoding="async"
+         sizes="100vw"
+         srcset="K2_fast_bilder/Homepage_Bilder/Bild_Enhanced (3).jpg 1200w"
+         data-parallax-speed="0.5"
+         style="background-color: #203649;">
+      <div class="hero-overlay"></div>
+      
+      <div class="hero-content">
+        <h1>Industrilokaler<br>för Framtiden</h1>
+        <p>Strategiskt placerade fastigheter i Krylbo med infrastruktur, logistik och effektivitet för moderna industriella verksamheter. Stora portöppningar, lyftkapacitet och flexibel layout.</p>
+        <div class="hero-cta">
+          <a href="#list" class="btn-primary-cta">Utforska Lokaler</a>
+          <a href="#contact" class="btn-secondary-cta">Kontakta Oss</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="content-wrap fade-in-element">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <h2 class="section-title">Läget & Infrastrukturen</h2>
+            <p class="section-subtitle">Krylbo — Historik, Nutid, Framtid</p>
+            <p class="text-muted" style="line-height:2;">
+              Krylbo är en etablerad knutpunkt i svenska tågnätet. Med närhet till riksväg 68 och 70, kombinerat med moderna vägprojekt, erbjuds säker och effektiv fraktlogistik. Perfekt för industriell produktion, lager och verkstadsverksamhet.
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <div id="aboutCarousel" class="carousel slide shadow-sm overflow-visible" data-bs-ride="carousel" style="border-radius: 0; position: relative;">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="K2_fast_bilder/Homepage_Bilder/Bild_Enhanced (1).jpg" class="d-block w-100" alt="Krylbo vy" style="height: 400px; object-fit: cover;">
+                </div>
+                <div class="carousel-item">
+                  <img src="K2_fast_bilder/Homepage_Bilder/Bild_Enhanced (2).jpg" class="d-block w-100" alt="Tåg och infrastruktur" style="height: 400px; object-fit: cover;">
+                </div>
+                <div class="carousel-item">
+                  <img src="K2_fast_bilder/Homepage_Bilder/Andreas_Khysing.jpg" class="d-block w-100" alt="Industri" style="height: 400px; object-fit: cover;">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMPANY SECTION -->
+    <section id="company" class="content-wrap fade-in-element">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <h2 class="section-title">K2 Fastigheter AB</h2>
+            <p class="section-subtitle">Professionell Uthyrning för Industriverksamhet</p>
+            <p class="text-muted" style="line-height:2; margin-bottom: 30px;">
+              Flexibla industrilokaler för effektiv verksamhet
+              Våra industrilokaler erbjuder funktionella och flexibla ytor anpassade för produktion, lager och logistik. Med god tillgänglighet, smart planlösning och möjlighet att anpassa lokalerna efter verksamhetens behov skapas rätt förutsättningar för en effektiv och långsiktig etablering.
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <div id="companyCarousel" class="carousel slide shadow-sm overflow-visible" data-bs-ride="carousel" style="border-radius: 0; position: relative;">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="K2_fast_bilder/Fastighet_1100m2/Industrilokal_1100m2 (1).jpeg" class="d-block w-100" alt="Industrilokal" style="height: 400px; object-fit: cover;">
+                </div>
+                <div class="carousel-item">
+                  <img src="K2_fast_bilder/Fastighet_1100m2/Industrilokal_1100m2 (2).jpeg" class="d-block w-100" alt="Industrilokal" style="height: 400px; object-fit: cover;">
+                </div>
+                <div class="carousel-item">
+                  <img src="K2_fast_bilder/Fastighet_1100m2/Industrilokal_1100m2 (3).jpeg" class="d-block w-100" alt="Industrilokal" style="height: 400px; object-fit: cover;">
+                </div>
+                <div class="carousel-item">
+                  <img src="K2_fast_bilder/Fastighet_1100m2/Industrilokal_1100m2 (4).jpeg" class="d-block w-100" alt="Industrilokal" style="height: 400px; object-fit: cover;">
+                </div>
+                <div class="carousel-item">
+                  <img src="K2_fast_bilder/Fastighet_1100m2/Industrilokal_1100m2 (5).jpeg" class="d-block w-100" alt="Industrilokal" style="height: 400px; object-fit: cover;">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MAP SECTION -->
+    <section id="map" class="content-wrap fade-in-element">
+      <div class="container">
+        <h2 class="section-title">Besök Oss</h2>
+        <div class="map-container" style="border-radius: 0; overflow: hidden; box-shadow: 0 12px 40px rgba(0,0,0,0.4); margin-bottom: 30px;">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2160.8089289999997!2d15.573363!3d60.6488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4663f3c3c3c3c3c3%3A0x123456789!2sFabriksgatan%2013%2C%20775%2054%20Krylbo!5e0!3m2!1ssv!2sse!4v1234567890" width="100%" height="450" style="border:none;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div style="padding: 24px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);">
+          <h6 style="text-transform: uppercase; font-weight: 900; color: #fff; margin-bottom: 8px;">Fabriksgatan 13, 775 54 Krylbo</h6>
+          <p class="text-muted mb-0">Klicka på kartan för vägbeskrivning. Utmärkt tillgänglighet via riksväg 68 och 70.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- LIST OF ESTATES -->
+    <section id="list" class="content-wrap fade-in-element" style="display:none;">
+      <div class="container">
+        <div style="margin-bottom: 50px;">
+          <h2 class="section-title">Lediga Lokaler</h2>
+          <p class="section-subtitle">Industrilokalernas specifikationer</p>
+        </div>
+        <div class="row g-4" id="estatesRow"></div>
+      </div>
+    </section>
+
+    <!-- PROPERTY DEDICATED VIEW -->
+    <section id="property" class="content-wrap fade-in-element" style="display:none;">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-start mb-5">
+          <div>
+            <a href="#list" class="nav-link-back">← Tillbaka till Lokaler</a>
+            <h2 id="propTitle" class="mt-3 section-title" style="margin-bottom: 15px;"></h2>
+            <p id="propSub" class="section-subtitle"></p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="position-relative property-hero">
+              <div class="count-badge" id="photoCount">0 bilder</div>
+              <img id="mainImage" src="" alt="huvudbild" style="object-fit: contain !important;">
+              <div class="image-headline-overlay" id="mainImageCaption">Bildtitel</div>
+              <button id="prevBtn" class="btn btn-light">❮</button>
+              <button id="nextBtn" class="btn btn-light">❯</button>
+            </div>
+
+            <div class="mt-4 gallery-strip" id="thumbStrip"></div>
+          </div>
+          <div class="col-lg-4">
+            <div class="property-info">
+              <h5>INFORMATION</h5>
+              <ul class="list-unstyled mt-3" id="propFacts">
+                <!-- facts go here -->
+              </ul>
+              <hr style="border-color: rgba(255,255,255,0.15);">
+              <h6>Beskrivning</h6>
+              <p id="propDesc" class="text-muted small"></p>
+              <div style="display: flex; gap: 12px; margin-top: 20px;">
+                <button id="openGalleryBtn" class="btn-primary-cta" style="flex: 1; padding: 12px 24px; font-size: 0.9rem;">Öppna Bildgalleri</button>
+                <button id="openPdfBtn" class="btn-primary-cta" style="flex: 1; padding: 12px 24px; font-size: 0.9rem; display: none;">Öppna Ritningar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="content-wrap fade-in-element" style="display:none;">
+      <div class="container">
+        <h2 class="section-title">Kontakta Oss</h2>
+        <p class="section-subtitle">Intresserad av Att Hyra en Industrilokal?</p>
+        <div class="row">
+          <div class="col-lg-8">
+            <form class="row g-3" onsubmit="event.preventDefault(); alert('Tack för ditt meddelande! Vi kontaktar dig snart.');">
+              <div class="col-md-6"><input class="form-control" placeholder="Ditt namn" required></div>
+              <div class="col-md-6"><input class="form-control" placeholder="Telefon eller e-post" required></div>
+              <div class="col-12"><textarea class="form-control" placeholder="Meddelande eller frågor" rows="5" required></textarea></div>
+              <div class="col-12"><button type="submit" class="btn-primary-cta">Skicka Meddelande</button></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- PDF MODAL -->
+  <div id="pdfModal" style="display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.95); z-index: 1000; align-items: center; justify-content: center; padding: 20px;">
+    <button type="button" onclick="closePdfModal()" style="position: absolute; top: 10px; right: 10px; background: none; border: none; color: white; font-size: 28px; cursor: pointer; z-index: 1001;">×</button>
+    <div style="position: relative; width: 100%; height: 90vh; display: flex; align-items: center; justify-content: center; gap: 15px;">
+      <button id="pdfPrevBtn" onclick="pdfPrev()" style="background: rgba(4, 107, 182, 0.6); border: none; color: white; padding: 15px 20px; font-size: 24px; cursor: pointer; border-radius: 4px; display: none; flex-shrink: 0;">❮</button>
+      <div style="width: 100%; height: 100%; max-width: 1000px; position: relative;">
+        <iframe id="pdfViewerModal" width="100%" height="100%" style="border: none;"></iframe>
+        <div id="pdfCounter" style="position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); background: rgba(4, 107, 182, 0.9); color: white; padding: 10px 15px; border-radius: 4px; font-size: 14px; font-weight: bold; display: none; z-index: 10;">1/1</div>
+      </div>
+      <button id="pdfNextBtn" onclick="pdfNext()" style="background: rgba(4, 107, 182, 0.6); border: none; color: white; padding: 15px 20px; font-size: 24px; cursor: pointer; border-radius: 4px; display: none; flex-shrink: 0;">❯</button>
+    </div>
+  </div>
+
+  <!-- SIMPLE GALLERY MODAL -->
+  <div id="simpleGalleryModal" style="display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.95); z-index: 1000; padding: 20px;">
+    <button type="button" onclick="closeGallery()" style="position: absolute; top: 10px; right: 10px; background: none; border: none; color: white; font-size: 36px; cursor: pointer; z-index: 1001;">×</button>
+    <div style="position: relative; width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+      <div style="position: relative; display: flex; align-items: center; justify-content: center;">
+        <img id="galleryImage" src="" alt="gallery" style="max-width: 100%; max-height: 75vh; object-fit: contain;">
+        <div id="galleryImageCaption" style="position: absolute; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 8px 14px; background: rgba(4, 107, 182, 0.9); color: white; border-radius: 4px; font-size: 0.9rem; z-index: 1002; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 80%;">Bildtitel</div>
+        <button id="galleryPrevBtn" onclick="galleryPrev()" style="position: absolute; left: 20px; top: 50%; transform: translateY(-50%); background: rgba(4, 107, 182, 0.6); border: none; color: white; padding: 15px 20px; font-size: 24px; cursor: pointer; border-radius: 4px;">❮</button>
+        <button id="galleryNextBtn" onclick="galleryNext()" style="position: absolute; right: 20px; top: 50%; transform: translateY(-50%); background: rgba(4, 107, 182, 0.6); border: none; color: white; padding: 15px 20px; font-size: 24px; cursor: pointer; border-radius: 4px;">❯</button>
+      </div>
+      <div id="galleryCounter" style="position: absolute; bottom: 20px; background: rgba(4, 107, 182, 0.9); color: white; padding: 10px 15px; border-radius: 4px; font-size: 14px; font-weight: bold;">1/1</div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/parallax.js"></script>
+  <script>
+    // Data for the four estates
+    const estates = [
+      {
+        id: 'estate-1',
+        title: 'INDUSTRILOKAL 1',
+        subtitle: '1100 m² | Verkstad & Produktion',
+        description: `Komplett utrustad industrilokal för verkstad, industri, produktion eller liknande verksamhet.
+
+          Utrustning & Features:
+          • Stora öppna ytor med god takhöjd
+          • Två traverser med 10 ton lyftkapacitet vardera
+          • Två stora portar för smidig in- och utlastning
+          • Fjärrvärme och elektricitet indraget
+
+          Läge:
+          Fabriksgatan 13, Krylbo — etablerad industrigata med excellent tillgänglighet. Nära riksväg 68 och 70.
+
+          Vid seriöst intresse, kontakta oss omgående.`,
+
+        pdfs: [
+          'K2_fast_bilder/Ritningar/Uthyrning_Lokaler-Ritning (1).pdf',
+          'K2_fast_bilder/Ritningar/Uthyrning_Lokaler-Ritning (2).pdf',
+          'K2_fast_bilder/Ritningar/Uthyrning_Lokaler-Ritning (3).pdf'
+        ],
+
+        facts: {
+          'Hyra': 'På begäran',
+          'Area': '1100 m²',
+          'Traverser': '2 × 10 ton',
+          'Portar': '2 stycken',
+          'Port främre': '4,5 x 4,5 m',
+          'Port bakre': '4,5 x 6,5 m',
+          'Värmesystem': 'Infravärme',
+          'Övrigt': 'Tryckluft',
+          'Tillgänglighet': 'Omgående',
+        },
+
+        images: [1,2,3,4,5,6,7,8,9,10,11].map(n=>({
+          src: `K2_fast_bilder/Fastighet_1100m2/Industrilokal_1100m2 (${n}).jpeg`,
+          label: `Industrilokal`,
+        }))
+      },
+      {
+        id: 'estate-2',
+        title: 'INDUSTRILOKAL 2',
+        subtitle: '440 m² | Lager & Montering',
+        description: `Välutrustade öppna ytor för lager, montering eller verkstad.
+
+          Utrustning & Features:
+          • Öppna och lättmöblerade ytor
+          • God takhöjd med rymligt förvaringsutrymme
+          • Separata rum lämpliga som fikarum, kontor eller personalutrymme
+          • Möjlighet att öppna upp mot angränsande lokal — utöka vid behov
+          • OBS: Denna lokal saknar travers
+          • Fjärrvärme och elektricitet indraget
+
+          Läge:
+          Fabriksgatan 13, Krylbo — etablerad industrigata med excellent tillgänglighet. Nära riksväg 68 och 70. Etablerad industrigata med utmärkt logistik och monteringsverksamhet.
+          
+          Vid seriöst intresse, kontakta oss omgående.`,
+        
+        pdfs: ['K2_fast_bilder/Ritningar/Uthyrning_Lokaler-Ritning (2).pdf'],
+          
+        facts: {
+          'Hyra': 'På begäran',
+          'Area': '440 m²',
+          'Traverser': 'Ingen',
+          'Port': '4,5 x 4,5 m',
+          'Takhöjd': '9 m',
+          'Övrigt': 'Inget vatten eller avlopp',
+          '' : 'kan kompletteras med byggbarack',
+          'Tillgänglighet': 'Omgående',
+        },
+        images: [1,2,3,4,5,6,7,8,9,10,11].map(n=>({
+          src: `K2_fast_bilder/Fastighet_440m2/Industrilokal_440m2 (${n}).jpeg`,
+          label: `Industrilokal`
+        }))
+      },
+      {
+        id: 'estate-3',
+        title: 'INDUSTRILOKAL 3',
+        subtitle: '460 m² | Flexibel Verkstad',
+        description: `Rymlig industrilokal med flexibel layout och expanderingsmöjligheter.
+
+        Utrustning & Features:
+        • Rymliga öppna ytor med god takhöjd
+        • Portöppningar anpassade för smidig in- och utlastning
+        • 1 travers med lyftkapacitet upp till 10 ton
+        • Funktionell layout med goda arbetsytor
+        • Möjlighet att öppna upp mot angränsande lokal — expandera till ~900 m²
+        • Fjärrvärme och tryckluft ingår i hyran, elektricitet indraget
+
+        Läge:
+        Fabriksgatan 13, Krylbo — etablerad industrigata med excellent tillgänglighet. Nära riksväg 68 och 70. Idealt för flexibel produktion och lager. Perfekt för småskalig till medelstor verksamhet. 
+
+        Vid seriöst intresse, kontakta oss omgående.`,
+        
+        pdfs: ['K2_fast_bilder/Ritningar/Uthyrning_Lokaler-Ritning (3).pdf'],
+        
+        facts: {
+          'Hyra': 'På begäran',
+          'Area': '460 m²',
+          'Expanderbar': '~900 m²',
+          'Portar': '4,5 x 6,5 m',
+          'Takhöjd': '8.5 m',
+          'Traverser': '1 × 10 ton',
+          'Layout': 'Öppen plan',
+          'Tillgänglighet': 'Omgående',
+        },
+        images: [1,2,3,4,5,6,7,8].map(n=>({
+          src: `K2_fast_bilder/Fastighet_460m2/Industrilokal_460m2 (${n}).jpeg`,
+          label: `Industrilokal`
+        }))
+      },
+      {
+        id: 'estate-4',
+        title: 'MÅLERILOKAL, STÅLSANDSBLÄSTER & FRISANDBLÄSTER',
+        subtitle: '500 m² | Specialiserad produktion',
+        description: `Målerilokal anpassad för industriell målning, rostskydd och utrustning & features. 
+
+          • Cirka 500 m² anpassad för måleri, stålsandsblästring och frisandsblästring
+          • Tillhörande baracker för kontor, dusch och omklädning (Under upprustning) 
+          • Färgcontainer och lagerutrymme för måleriverksamhet
+          • Integrerad stålsandsbläster
+          • Funktionell layout optimerad för måleprocess
+          • Elektricitet indraget
+
+          Läge:
+          Fabriksgatan 13, Krylbo — perfekt för färg- och ytbehandlingsindustri.
+
+          Specialiserad för rostskydd, pulverlackering och liknande verksamhet.
+          
+          Vid seriöst intresse, kontakta oss omgående.`,
+
+        pdfs: ['K2_fast_bilder/Ritningar/Maleri.pdf'],
+
+        facts: {
+          'Hyra': 'På begäran',
+          'Area': '500 m²',
+          'Målerilokal Area': '250 m²',
+          'Stålsandsbläster Area': '150 m²',
+          'Frisandbläster Area (Tält)': '100 m²',
+          'Våtlackering': 'Ja',
+          'Punschbarack': 'Ja',
+          'Kontorbarack': 'Ja',
+          'Omklädningsbarack': 'Ja',
+          'Ventilation': 'Ja',
+          'Vatten': 'Ja',
+          'Tillgänglighet': 'Omgående',
+        },
+        images: [
+          {src: `K2_fast_bilder/Maleri_250m2/Maleri_250m2 (1).jpeg`, label: 'Måleri'},
+          {src: `K2_fast_bilder/Maleri_250m2/Maleri_250m2 (2).jpeg`, label: 'Måleri'},
+          {src: `K2_fast_bilder/Maleri_250m2/Maleri_250m2 (3).jpeg`, label: 'Omklädningsbarack & matsal'},
+          {src: `K2_fast_bilder/Maleri_250m2/Maleri_250m2 (4).jpeg`, label: 'Omklädningsbarack & matsal'},
+          {src: `K2_fast_bilder/Maleri_250m2/Maleri_250m2 (5).jpeg`, label: 'Kontor'},
+          {src: `K2_fast_bilder/Maleri_250m2/Maleri_250m2 (6).jpeg`, label: 'Utsidan'},
+          {src: `K2_fast_bilder/Maleri_250m2/Maleri_250m2 (7).jpeg`, label: 'Frisandsbläster'},
+          {src: `K2_fast_bilder/Maleri_250m2/Maleri_250m2 (8).jpeg`, label: 'Frisandsbläster'},
+          {src: `K2_fast_bilder/Maleri_250m2/Maleri_250m2 (9).jpeg`, label: 'Frisandsbläster'},
+          {src: `K2_fast_bilder/Maleri_250m2/Maleri_250m2 (10).jpeg`, label: 'Frisandsbläster'},
+          {src: `K2_fast_bilder/Maleri_250m2/Maleri_250m2 (11).jpeg`, label: 'Stålsandsbläster'},
+          {src: `K2_fast_bilder/Maleri_250m2/Maleri_250m2 (12).jpeg`, label: 'Stålsandsbläster'},
+          {src: `K2_fast_bilder/Maleri_250m2/Maleri_250m2 (13).jpeg`, label: 'Stålsandsbläster'},
+          {src: `K2_fast_bilder/Maleri_250m2/Maleri_250m2 (14).jpeg`, label: 'Stålsandsbläster'},
+          {src: `K2_fast_bilder/Maleri_250m2/Maleri_250m2 (15).jpeg`, label: 'Stålsandsbläster'}
+        ]
+      },
+       {
+        id: 'estate-5',
+        title: 'KONTOR, OMKLÄDNING & KÖK',
+        subtitle: '120 m² | Funktionella utrymmen',
+        description: `En flexibel och praktisk lokal som passar för flera typer av verksamheter. Lokalen erbjuder funktionella utrymmen och goda möjligheter att anpassas efter verksamhetens behov.
+
+          • Lokalen består av ett fullt utrustat kök med tillhörande matsal, skåp, duschhall och toalett.
+
+          • Ett kontor finns också tillgängligt och kan hyras till vid senare tillfälle.
+          
+          Läge:
+          Fabriksgatan 13, Krylbo — perfekt för färg- och ytbehandlingsindustri.
+          
+          Specialiserad för rostskydd, pulverlackering och liknande verksamhet.
+          
+          Vid seriöst intresse, kontakta oss omgående.`,
+
+        pdfs: ['K2_fast_bilder/Ritningar/Kontor_Omkladning_Kok.pdf'],
+
+        facts: {
+          'Hyra': 'På begäran',
+          'Area': '120 m²',
+          'Kök': 'Fullt utrustat',
+          'Omklädning': 'Ja',
+          'Låsbara skåp': 'Ja',
+          'Duschhall': 'Ja',
+          'Tillgänglighet': 'Omgående',
+        },
+        images: [
+          {src: `K2_fast_bilder/Kontor_Matsal_Omklad/Kontor_Matsal_Omklad (1).jpeg`, label: 'Matsal'},
+          {src: `K2_fast_bilder/Kontor_Matsal_Omklad/Kontor_Matsal_Omklad (2).jpeg`, label: 'Matsal'},
+          {src: `K2_fast_bilder/Kontor_Matsal_Omklad/Kontor_Matsal_Omklad (3).jpeg`, label: 'Matsal'},
+          {src: `K2_fast_bilder/Kontor_Matsal_Omklad/Kontor_Matsal_Omklad (4).jpeg`, label: 'Matsal'},
+          {src: `K2_fast_bilder/Kontor_Matsal_Omklad/Kontor_Matsal_Omklad (5).jpeg`, label: 'Trappor'},
+          {src: `K2_fast_bilder/Kontor_Matsal_Omklad/Kontor_Matsal_Omklad (6).jpeg`, label: 'Trappor'},
+          {src: `K2_fast_bilder/Kontor_Matsal_Omklad/Kontor_Matsal_Omklad (7).jpeg`, label: 'Omklädningsrum'},
+          {src: `K2_fast_bilder/Kontor_Matsal_Omklad/Kontor_Matsal_Omklad (8).jpeg`, label: 'Omklädningsrum'},
+          {src: `K2_fast_bilder/Kontor_Matsal_Omklad/Kontor_Matsal_Omklad (9).jpeg`, label: 'Toalett'},
+          {src: `K2_fast_bilder/Kontor_Matsal_Omklad/Kontor_Matsal_Omklad (10).jpeg`, label: 'Duschall'},
+          {src: `K2_fast_bilder/Kontor_Matsal_Omklad/Kontor_Matsal_Omklad (11).jpeg`, label: 'Duschall'},
+          {src: `K2_fast_bilder/Kontor_Matsal_Omklad/Kontor_Matsal_Omklad (12).jpeg`, label: 'Duschall'},
+          {src: `K2_fast_bilder/Kontor_Matsal_Omklad/Kontor_Matsal_Omklad (13).jpeg`, label: 'Kontor'}
+        ]
+      }
+    ];
+
+    // Parallax handled by js/parallax.js (scroll-based, no library)
+    var lastNavbarUpdate = 0;
+    var scrollTicking = false;
+    var navbarEl = null;
+
+    // Routing behavior using hash
+    function showSection(name){
+      document.querySelectorAll('main section').forEach(s=>s.style.display='none');
+      const el = document.getElementById(name);
+      if(el) el.style.display = '';
+      // Show about, company, and map sections along with home
+      if(name === 'home'){
+        const aboutEl = document.getElementById('about');
+        const companyEl = document.getElementById('company');
+        const mapEl = document.getElementById('map');
+        if(aboutEl) aboutEl.style.display = '';
+        if(companyEl) companyEl.style.display = '';
+        if(mapEl) mapEl.style.display = '';
+      }
+      // update active nav
+      document.querySelectorAll('.nav-link').forEach(a=>{
+        a.classList.toggle('active', a.getAttribute('href')===`#${name}`);
+      });
+    }
+
+    function renderList(){
+      const row = document.getElementById('estatesRow'); 
+      row.innerHTML='';
+      estates.forEach((e, idx)=>{
+        const col = document.createElement('div');
+        const card = document.createElement('article');
+        card.className = 'card-estate';
+        card.style.cursor = 'pointer';
+
+        col.className = 'col-12 col-md-6 d-flex justify-content-center';
+
+        const areaText = e.facts.Area || e.subtitle || 'Ej angivet';
+
+        const firstImage = e.images[0] || {};
+        card.innerHTML = `
+            <img class="estate-img list-img" src="${firstImage.src || ''}" alt="${e.title}">
+            <div class="card-content">
+              <div class="card-title">${e.title}</div>
+              <div class="card-subtitle">${areaText}</div>
+              <div class="tech-specs">
+                <div class="tech-spec">
+                  <span class="spec-label">HYRA</span>
+                  <span class="spec-value">${e.facts.Hyra}</span>
+                </div>
+                <div class="tech-spec">
+                  <span class="spec-label">TILLGÄNGLIGHET</span>
+                  <span class="spec-value" style="font-size: 0.85rem;">${e.facts.Tillgänglighet}</span>
+                </div>
+              </div>
+              <div class="card-action">
+                <a href="#property/${e.id}" style="pointer-events: none;">Se Detaljer →</a>
+              </div>
+            </div>
+        `;
+        card.addEventListener('click', () => {
+          location.hash = `#property/${e.id}`;
+        });
+        col.appendChild(card);
+        row.appendChild(col);
+      });
+    }
+
+    var currentImageIndex = 0;
+    var galleryImages = [];
+    var currentPdfIndex = 0;
+    var modalPdfs = [];
+    
+    function openGallery(images, startIndex = 0) {
+      galleryImages = images;
+      currentImageIndex = startIndex;
+      document.getElementById('simpleGalleryModal').style.display = 'flex';
+      updateGalleryImage();
+    }
+    
+    function closeGallery() {
+      document.getElementById('simpleGalleryModal').style.display = 'none';
+    }
+    
+    function closePdfModal() {
+      document.getElementById('pdfModal').style.display = 'none';
+    }
+    
+    function openPdfModal(pdfs, startIndex = 0) {
+      modalPdfs = Array.isArray(pdfs) ? pdfs : [pdfs];
+      currentPdfIndex = startIndex;
+      updatePdfDisplay();
+      document.getElementById('pdfModal').style.display = 'flex';
+    }
+    
+    function updatePdfDisplay() {
+      const pdfPath = modalPdfs[currentPdfIndex];
+      document.getElementById('pdfViewerModal').src = pdfPath;
+      document.getElementById('pdfCounter').textContent = (currentPdfIndex + 1) + '/' + modalPdfs.length;
+      
+      // Show/hide nav buttons if multiple PDFs
+      const prevBtn = document.getElementById('pdfPrevBtn');
+      const nextBtn = document.getElementById('pdfNextBtn');
+      const counter = document.getElementById('pdfCounter');
+      
+      if (modalPdfs.length > 1) {
+        prevBtn.style.display = 'block';
+        nextBtn.style.display = 'block';
+        counter.style.display = 'block';
+      } else {
+        prevBtn.style.display = 'none';
+        nextBtn.style.display = 'none';
+        counter.style.display = 'none';
+      }
+    }
+    
+    function pdfPrev() {
+      currentPdfIndex = (currentPdfIndex - 1 + modalPdfs.length) % modalPdfs.length;
+      updatePdfDisplay();
+    }
+    
+    function pdfNext() {
+      currentPdfIndex = (currentPdfIndex + 1) % modalPdfs.length;
+      updatePdfDisplay();
+    }
+    
+    function updateGalleryImage() {
+      const imageObject = galleryImages[currentImageIndex];
+      document.getElementById('galleryImage').src = imageObject?.src || '';
+      document.getElementById('galleryImage').alt = imageObject?.label || 'gallery image';
+      document.getElementById('galleryImageCaption').textContent = imageObject?.label || '';
+      document.getElementById('galleryCounter').textContent = (currentImageIndex + 1) + '/' + galleryImages.length;
+    }
+    
+    function galleryPrev() {
+      currentImageIndex = (currentImageIndex - 1 + galleryImages.length) % galleryImages.length;
+      updateGalleryImage();
+    }
+    
+    function galleryNext() {
+      currentImageIndex = (currentImageIndex + 1) % galleryImages.length;
+      updateGalleryImage();
+    }
+    
+    // Close gallery with Escape key
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') closeGallery();
+      if (e.key === 'ArrowLeft') galleryPrev();
+      if (e.key === 'ArrowRight') galleryNext();
+    });
+    
+    function openPropertyById(id){
+      const p = estates.find(x=>x.id===id);
+      if(!p) return location.hash='#list';
+      document.getElementById('propTitle').textContent = p.title;
+      document.getElementById('propSub').textContent = p.subtitle;
+      const mainImageObj = p.images[0] || {};
+      document.getElementById('mainImage').src = mainImageObj.src || '';
+      document.getElementById('mainImage').alt = mainImageObj.label || p.title;
+      document.getElementById('mainImageCaption').textContent = mainImageObj.label || '';
+      document.getElementById('photoCount').textContent = p.images.length + ' BILDER';
+      
+      // Reset image index for this property
+      currentImageIndex = 0;
+      
+      // Show/hide nav arrows if multiple images
+      const prevBtn = document.getElementById('prevBtn');
+      const nextBtn = document.getElementById('nextBtn');
+      if(p.images.length > 1){
+        prevBtn.style.display = 'block';
+        nextBtn.style.display = 'block';
+      } else {
+        prevBtn.style.display = 'none';
+        nextBtn.style.display = 'none';
+      }
+      
+      // facts
+      const fwrap = document.getElementById('propFacts'); 
+      fwrap.innerHTML='';
+      for(const [k,v] of Object.entries(p.facts)){
+        const li = document.createElement('li');
+        li.innerHTML = `<strong>${k}</strong> <span>${v}</span>`;
+        fwrap.appendChild(li);
+      }
+      // desc
+      document.getElementById('propDesc').textContent = p.description;
+
+      // Handle PDF button visibility and setup
+      const openPdfBtn = document.getElementById('openPdfBtn');
+      if (p.pdfs && p.pdfs.length > 0) {
+        openPdfBtn.style.display = 'block';
+        openPdfBtn.onclick = () => {
+          openPdfModal(p.pdfs);
+        };
+      } else {
+        openPdfBtn.style.display = 'none';
+      }
+
+      // thumbnails
+      const strip = document.getElementById('thumbStrip'); 
+      strip.innerHTML='';
+      
+      // Add PDF to gallery strip if it exists
+      if (p.pdfs && p.pdfs.length > 0) {
+        // PDF not added to thumb strip anymore
+      }
+      
+      p.images.forEach((imgObj,idx)=>{
+        const thumbWrapper = document.createElement('div');
+        thumbWrapper.className = 'thumb-wrapper';
+
+        const imgEl = document.createElement('img');
+        imgEl.src = imgObj.src || '';
+        imgEl.className = 'thumb';
+        imgEl.alt = imgObj.label || `${p.title} bild ${idx+1}`;
+
+        const caption = document.createElement('div');
+        caption.className = 'thumb-caption';
+        caption.textContent = imgObj.label || `Bild ${idx+1}`;
+
+        imgEl.addEventListener('click', ()=> {
+          currentImageIndex = idx;
+          changeMainImage(p.images[idx], idx);
+        });
+
+        thumbWrapper.appendChild(imgEl);
+        thumbWrapper.appendChild(caption);
+        strip.appendChild(thumbWrapper);
+      });
+
+      // Setup nav buttons
+      prevBtn.onclick = ()=>{
+        currentImageIndex = (currentImageIndex - 1 + p.images.length) % p.images.length;
+        changeMainImage(p.images[currentImageIndex], currentImageIndex);
+      };
+      
+      nextBtn.onclick = ()=>{
+        currentImageIndex = (currentImageIndex + 1) % p.images.length;
+        changeMainImage(p.images[currentImageIndex], currentImageIndex);
+      };
+      
+      // Store images for external access
+      window.currentProperty = {images: p.images, currentIndex: 0};
+      
+      // Setup gallery button
+      document.getElementById('openGalleryBtn').onclick = () => {
+        openGallery(p.images, currentImageIndex);
+      };
+    }
+
+    function changeMainImage(imageObj, index){ 
+      document.getElementById('mainImage').src = imageObj?.src || '';
+      document.getElementById('mainImage').alt = imageObj?.label || document.getElementById('propTitle').textContent;
+      document.getElementById('mainImageCaption').textContent = imageObj?.label || '';
+      if(window.currentProperty) window.currentProperty.currentIndex = index;
+    }
+    
+    // Listen to hash change
+    function handleHash(){
+      const hash = location.hash.replace(/^#/,'');
+      if(!hash || hash.startsWith('home')){ showSection('home'); }
+      else if(hash.startsWith('list')){ showSection('list'); renderList(); }
+      else if(hash.startsWith('contact')){ showSection('contact'); }
+      else if(hash.startsWith('property/')){
+        const id = hash.split('/')[1]; showSection('property'); openPropertyById(id);
+      } else { showSection('home'); }
+      triggerFadeIn();
+    }
+
+    window.addEventListener('hashchange', handleHash);
+    
+    // Smooth fade-in/reveal and navbar: single rAF per frame, batched reads then writes (no layout thrash)
+    var fadeInElements = document.querySelectorAll('.fade-in-element');
+    var NAVBAR_HEIGHT = 150;
+
+    function triggerFadeIn() {
+      var windowHeight = window.innerHeight;
+      for (var i = 0; i < fadeInElements.length; i++) {
+        var el = fadeInElements[i];
+        var rect = el.getBoundingClientRect();
+        if (rect.bottom > -windowHeight * 0.2 && rect.top < windowHeight * 1.2) {
+          el.classList.add('fade-in-animate');
+          setTimeout(function(e){ return function(){ e.classList.remove('fade-in-animate'); }; }(el), 800);
+        }
+      }
+    }
+
+    function updateFadeElements() {
+      var windowHeight = window.innerHeight;
+      for (var i = 0; i < fadeInElements.length; i++) {
+        var el = fadeInElements[i];
+        var rect = el.getBoundingClientRect();
+        var opacity = 1;
+        if (rect.bottom < 0) opacity = 0;
+        else if (rect.top > windowHeight) opacity = 0;
+        else if (rect.top < NAVBAR_HEIGHT && rect.bottom > 0) {
+          opacity = (rect.bottom - NAVBAR_HEIGHT) / (windowHeight * 0.2);
+          opacity = opacity < 0 ? 0 : opacity > 1 ? 1 : opacity;
+        } else if (rect.bottom < windowHeight && rect.top > NAVBAR_HEIGHT) {
+          opacity = Math.min(1, (windowHeight - rect.top) / (windowHeight * 0.3));
+        }
+        el.style.opacity = opacity;
+      }
+    }
+
+    function onScrollFrame() {
+      scrollTicking = false;
+      var windowHeight = window.innerHeight;
+      var scrollY = window.scrollY || window.pageYOffset;
+      var rects = [];
+      for (var i = 0; i < fadeInElements.length; i++)
+        rects.push(fadeInElements[i].getBoundingClientRect());
+      for (var i = 0; i < fadeInElements.length; i++) {
+        var rect = rects[i];
+        var opacity = 1;
+        if (rect.bottom < 0) opacity = 0;
+        else if (rect.top > windowHeight) opacity = 0;
+        else if (rect.top < NAVBAR_HEIGHT && rect.bottom > 0) {
+          opacity = (rect.bottom - NAVBAR_HEIGHT) / (windowHeight * 0.2);
+          opacity = opacity < 0 ? 0 : opacity > 1 ? 1 : opacity;
+        } else if (rect.bottom < windowHeight && rect.top > NAVBAR_HEIGHT)
+          opacity = Math.min(1, (windowHeight - rect.top) / (windowHeight * 0.3));
+        fadeInElements[i].style.opacity = opacity;
+      }
+      var now = performance.now();
+      if (now - lastNavbarUpdate > 100) {
+        lastNavbarUpdate = now;
+        var nav = navbarEl || (navbarEl = document.querySelector('.navbar'));
+        if (nav) {
+          var isScrolled = scrollY > 50;
+          var has = nav.classList.contains('scrolled');
+          if (isScrolled && !has) nav.classList.add('scrolled');
+          else if (!isScrolled && has) nav.classList.remove('scrolled');
+        }
+      }
+    }
+
+    function requestScrollUpdate() {
+      if (!scrollTicking) {
+        scrollTicking = true;
+        requestAnimationFrame(onScrollFrame);
+      }
+    }
+
+    window.addEventListener('scroll', requestScrollUpdate, { passive: true });
+    window.addEventListener('resize', requestScrollUpdate, { passive: true });
+
+    window.addEventListener('DOMContentLoaded', function(){
+      handleHash();
+      triggerFadeIn();
+      updateFadeElements();
+      
+      // Scroll to top on button and nav link clicks (except image nav buttons)
+      const buttons = document.querySelectorAll('button, a[href*="#"]');
+      buttons.forEach(btn => {
+        const isImageNavButton = btn.id === 'prevBtn' || btn.id === 'nextBtn' || btn.id === 'galleryPrevBtn' || btn.id === 'galleryNextBtn';
+        if (!isImageNavButton) {
+          btn.addEventListener('click', function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          });
+        }
+      });
+    });
+  </script>
+</body>
+</html>

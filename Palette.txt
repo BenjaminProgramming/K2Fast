@@ -1,0 +1,26 @@
+/* CSS HEX */
+--lochmara: #0173c8;
+--thunder: #231f20;
+--cloud-burst: #203649;
+--alto: #d8d7d7;
+--chathams-blue: #114a75;
+--venice-blue: #09609f;
+--science-blue: #046bb6;
+
+/* SCSS HEX */
+$lochmara: #0173c8;
+$thunder: #231f20;
+$cloud-burst: #203649;
+$alto: #d8d7d7;
+$chathams-blue: #114a75;
+$venice-blue: #09609f;
+$science-blue: #046bb6;
+
+/* SCSS RGB */
+$lochmara: rgba(1,115,200,1);
+$thunder: rgba(35,31,32,1);
+$cloud-burst: rgba(32,54,73,1);
+$alto: rgba(216,215,215,1);
+$chathams-blue: rgba(17,74,117,1);
+$venice-blue: rgba(9,96,159,1);
+$science-blue: rgba(4,107,182,1);
