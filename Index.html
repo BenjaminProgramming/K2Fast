@@ -190,10 +190,11 @@
         <p class="section-subtitle">Intresserad av Att Hyra en Industrilokal?</p>
         <div class="row">
           <div class="col-lg-8">
-            <form class="row g-3" onsubmit="event.preventDefault(); alert('Tack för ditt meddelande! Vi kontaktar dig snart.');">
-              <div class="col-md-6"><input class="form-control" placeholder="Ditt namn" required></div>
-              <div class="col-md-6"><input class="form-control" placeholder="Telefon eller e-post" required></div>
-              <div class="col-12"><textarea class="form-control" placeholder="Meddelande eller frågor" rows="5" required></textarea></div>
+            <form class="row g-3" id="contactForm" action="https://formsubmit.co/Andreas@verkstader.se" method="POST" onsubmit="handleContactFormSubmit(event);">
+              <input type="hidden" name="_captcha" value="false">
+              <div class="col-md-6"><input class="form-control" name="namn" placeholder="Ditt namn" required></div>
+              <div class="col-md-6"><input class="form-control" name="kontakt" placeholder="Telefon eller e-post" required></div>
+              <div class="col-12"><textarea class="form-control" name="meddelande" placeholder="Meddelande eller frågor" rows="5" required></textarea></div>
               <div class="col-12"><button type="submit" class="btn-primary-cta">Skicka Meddelande</button></div>
             </form>
           </div>
@@ -790,6 +791,20 @@
 
     window.addEventListener('scroll', requestScrollUpdate, { passive: true });
     window.addEventListener('resize', requestScrollUpdate, { passive: true });
+
+    // Handle contact form submission
+    function handleContactFormSubmit(event) {
+      const form = event.target;
+      const submitBtn = form.querySelector('button[type="submit"]');
+      const originalText = submitBtn.textContent;
+      
+      // Show loading state
+      submitBtn.textContent = 'Skickar...';
+      submitBtn.disabled = true;
+      
+      // Allow form submission to proceed to FormSubmit.co
+      return true;
+    }
 
     window.addEventListener('DOMContentLoaded', function(){
       handleHash();
